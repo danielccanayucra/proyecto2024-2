@@ -5,6 +5,3 @@ spring:
     active: development
   config:
       import: optional:config server:http://root:123456@localhost:7070
-  cloud:
-    config:
-      enabled: false
